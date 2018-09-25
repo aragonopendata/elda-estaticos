@@ -1,0 +1,33 @@
+#capa{
+	position: absolute;
+	top: 50%; /* Buscamos el centro horizontal (relativo) del navegador */
+	left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+	width: 600 px; /* Definimos el ancho del objeto a centrar */
+	height: 400px; /* Definimos el alto del objeto a centrar */
+	margin-top: -200px; /* Restamos la mitad de la altura del objeto con un margin-top */
+	margin-left: -300px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+}
+
+#localidata{
+	color: #254875;
+	font-weight: 700;
+	font-family:Arial;
+}
+
+#localidata_mini{
+	color: #254875;
+	font-weight: 500;
+	font-family:Arial;
+}
+
+#error{
+	color: #000000;
+	font-weight: 300;
+	font-family:Arial;
+}
+
+#infoError{
+	color: #777777;
+	font-weight: 300;
+	font-family:Arial;
+}

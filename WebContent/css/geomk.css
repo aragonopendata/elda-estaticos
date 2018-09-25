@@ -1,0 +1,261 @@
+/*Mapas de Google*/
+
+div#p2-map-canvas, 
+div#p2-map-canvas-densidad,
+div#searchMapCanvas,
+div#mapaBusquedaDistrito, 
+div#mapaBusquedaLimpio,
+div#map_poblacion_alrededores,
+div#map_densidad_alrededores,
+div#map_poblacion_alrededores_densidad,
+div#mapaSuperiorManual,
+div#mapaInferiorManual,
+div#map_poblacion_manual,
+div#map_poblacion_manual_densidad,
+div#map_comparador_alrededores,
+div#mini-map-canvas-madrid,
+div#mapPieCharts
+{
+	width: auto;
+	height:420px;	
+}
+
+
+div#mapaPerso
+{
+	width: auto;
+	height:600px;	
+}
+
+
+/*Para que se vea bien el mapa de google*/
+div#p2-map-canvas img, div#p2-map-canvas a img, div#p2-map-canvas .img,
+div#p2-map-canvas-densidad img, div#p2-map-canvas-densidad a img, div#p2-map-canvas-densidad .img,
+div#searchMapCanvas img, div#searchMapCanvas a img, div#searchMapCanvas .img,
+div#mapaBusquedaDistrito img, div#mapaBusquedaDistrito a img, div#mapaBusquedaDistrito .img,
+div#mapaBusquedaLimpio img, div#mapaBusquedaLimpio a img, div#mapaBusquedaLimpio .img,
+div#map_poblacion_alrededores img, div#map_poblacion_alrededores a img, div#map_poblacion_alrededores .img,
+div#map_densidad_alrededores img, div#map_densidad_alrededores a img, div#map_densidad_alrededores .img,
+div#map_poblacion_alrededores_densidad img, div#map_poblacion_alrededores_densidad a img, div#map_poblacion_alrededores_densidad .img,
+div#mapaSuperiorManual img, div#mapaSuperiorManual a img, div#mapaSuperiorManual .img,
+div#mapaInferiorManual img, div#mapaInferiorManual a img, div#mapaInferiorManual .img,
+div#map_poblacion_manual img, div#map_poblacion_manual a img, div#map_poblacion_manual .img,
+div#map_poblacion_manual_densidad img, div#map_poblacion_manual_densidad a img, div#map_poblacion_manual_densidad .img,
+div#map_comparador_alrededores img, div#map_comparador_alrededores a img, div#map_comparador_alrededores .img,
+div#mini-map-canvas-madrid img, div#mini-map-canvas-madrid a img, div#mini-map-canvas-madrid .img,
+div#mapPieCharts img, div#mapPieCharts a img, div#mapPieCharts .img, 
+div#mapaPerso img, div#mapaPerso a img, div#mapaPerso .img
+{
+	max-width: none !important;
+}
+
+
+/*Mini Mapa*/
+
+
+div#miniMapaLateral img, div#miniMapaLateral a img, div#miniMapaLateral .img 
+{
+	max-width: none !important;
+}
+
+div#miniMapaLateral
+{
+	width: 100%;
+	height:220px;
+	margin-bottom: 10px;
+}
+
+div.gmnoprint img, div.gmnoprint a img,div.gmnoprint .img {
+    max-width: none !important;
+}
+
+/*Fin Mapas de Google*/
+
+/*Gráficos población*/
+
+div#chart_div,div#p2-chart_div,
+div#grafico_poblacion_alrededores,
+div#grafico_poblacion_manual
+{
+	width: auto; 
+	height: 400px;			
+}
+
+div#indicadores,div#p2-indicadores,
+div#indicadores_poblacion_alrededores
+div#indicadores_poblacion_manual
+{
+	width: auto;
+	float: right;	
+}
+
+div#graficoSeleccionado,div#p2GraficoSeleccionado
+{
+	width: auto;
+	float: left;	
+}
+
+/*Fin gráficos población*/
+
+
+table#graphSel
+{
+	width: 200px;	
+}
+
+.enlaceGrafico
+{
+	cursor:pointer;
+}
+
+
+div#table_div
+{
+	width: auto;
+}
+
+
+/*Gráficos Análisis*/
+
+#graficoResidentes, #graficoTrabajadores{
+	height: 400px;
+}
+
+/*Comparador*/
+
+#compLeft{
+	width:40%;
+	float:left;
+}
+#compRight{
+	width:40%;
+	float:right;
+}
+#comparador{
+	width:auto;
+}
+#compBoton{
+	width:110px;
+	float: center;
+	margin-left:43%;	
+	margin-top:100px;
+}
+#btnComparar, #btnLimpiar{
+	width:100px;	
+}
+
+#comparadorTabla{
+	width:auto;
+}
+
+#searchTableDiv1
+{
+	width:49%;
+	float:left;
+}
+
+#searchTableDiv2
+{
+	width:49%;
+	float:right;
+}
+
+#textSearch1, #textSearch2, #actividad1, #actividad2, #cnaes1, #cnaes2
+{
+   font-family: arial;    
+   font-size: 1.0em !important;
+   font-weight: 400 !important;
+   line-height: 1.0em !important;
+}
+
+#actividad1, #actividad2{
+	width: 95px;
+}
+
+/*Pestaña 2*/
+#grupoCamposDistritos{
+	width: 50%;
+}
+
+/* Comparacion Pestaña 3*/
+#g_comparacion_distritos{
+	width:auto;
+}
+/* Coordenadas*/
+
+ 
+
+
+div.infoWindow
+{
+	width:300px;
+	min-height:50px;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+}
+
+b.infoWindow
+{
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+
+/*Texto Grafico Poblacion*/
+.textoIndicador
+{
+	font-family: Arial;
+	font-size: 0.9em;
+}
+
+/*Tabla minimapa*/
+
+.textoTablaTitulo {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.textoTablaNormal {
+  font-size: 12px;  
+}
+
+.ancho25{
+	width: 25% !important;
+	}
+
+.ancho75{
+	width: 75% !important;
+	}	
+	
+	
+
+.novedad{	
+	background-color: #EEEEEE;
+	padding: 5px 15px 5px 15px;	
+}
+
+
+
+	
+#carrusel101,#carrusel102, #carrusel103,
+#carrusel201,#carrusel202, #carrusel203,
+#carrusel301,#carrusel302, #carrusel303
+{
+	width:100%;
+}  
+
+	
+.fondoGris{
+	background-color: #EEEEEE;
+}
+
+
+.codigoIframe{
+	height: 5em;
+}
+
+#anchoIframe, #altoIframe{
+	size:5;	
+}
+
+
+

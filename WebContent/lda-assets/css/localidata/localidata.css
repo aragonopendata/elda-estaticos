@@ -1,0 +1,33 @@
+nav.site {
+  background: url("../../images/localidata/opendata-banner.png") no-repeat scroll 0 0 transparent;
+  padding-top: 54px;
+}
+
+
+header h1 {
+  background: url("../../images/localidata/localidata.png") no-repeat scroll 0 0 transparent;
+  color: #555555;
+  font-family: Gill Sans,Arial,sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+  margin-left: 42px;
+  padding: 0.5em 66px 1em;
+}
+
+#footermainPan {
+  background: url("/demo/images/footerbg_medio.gif") repeat-x scroll 0 0 #FFFFFF; 
+  padding: 5px 0 0;
+}
+
+th, td {
+  max-width: 240px;
+}
+
+th.label {
+  width: 20% !important;
+}
+
+#openSearch, .open, .view, .search, .filter, .provenance, .graphs, #enlaceBorrarOrdenacion{
+	display:none;
+}
+

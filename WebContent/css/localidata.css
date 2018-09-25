@@ -1,0 +1,596 @@
+
+/******************************************************************************************************
+											Estilos simples 
+******************************************************************************************************/
+
+html, body {
+    font-family: Arial,Geneva,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+}
+
+
+a, a:visited, a:hover, a:focus {
+    color: #7272E9;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+    line-height: 1.3;
+    font-family: Arial,Geneva,Helvetica,sans-serif;
+}
+
+table td {
+    font-size: 0.9em;
+}
+
+legend {
+  font-weight: normal;
+  color: rgb(166, 166, 166);
+}
+
+
+input, textarea, select {
+  font-family: arial; 
+}
+
+.borde  {
+  border: 1px solid #dddddd !important;
+}
+
+.altoListaBotonImg {
+	height: 30px;
+}
+
+.sinborde, #sinborde{
+	border:0;
+}
+
+.noPadded{
+	padding: 0px !important;
+}
+
+.noMargin{
+	margin: 0px !important;
+}
+
+.padded {
+  padding: 5px !important;
+}
+
+.gapped {
+  margin: 5px !important;
+}
+
+.img_powered{
+	max-width: 100%; 
+	height: auto;
+	max-height:40px;
+}
+
+.negrita{
+	 font-weight: bold;
+}
+
+.listaNivel1 {
+    margin-left: 5px;
+    list-style: none;
+}
+
+.listaNivel2 {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.margenTop1{
+	margin-top:10px;
+}
+
+.enLinea {  
+  width: auto;
+  display: inline;        
+}
+
+.invisible, .invisible:hover {
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	background: none;
+	border: none;
+	border-top-width: 0px !important;
+}
+
+.espacio{
+	background-color: #fff;
+	height: 50px;  
+}
+
+.espacio2x{
+	background-color: #fff;
+	height: 50px;  
+}
+
+.footerColor, #footerText{
+	background-color: #DDD;    
+}
+
+.middle{
+	vertical-align: middle;	
+}
+
+footer{	
+	position: fixed;
+    bottom: 0px;
+    width: 100%;  	  	
+}
+
+
+
+
+/******************************************************************************************************
+											Estilos complejos 
+******************************************************************************************************/
+
+/*navegacion*/
+
+
+.botonMenu{
+	font-weight: bold !important;
+	font-size: 1em !imporant;
+	color: #fff !important;
+	/*
+	background-image: -webkit-gradient(#C5C3E0 0%, #375181 90%) !important;
+	background-image: -webkit-linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  	background-image: -moz-linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  	background-image: -o-linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  	background-image: linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  	*/
+  	background-color: #005696 !important;
+}
+
+.botonSubMenu{
+	font-weight: bold !important;
+	font-size: 1em !imporant;
+	color: #fff !important;
+	background-color: #005696 !important;
+}
+
+.menuColor{
+  color: #fff !important;
+  background-color: #005696 !important;
+  /*
+  background-image: -webkit-gradient(#C5C3E0 0%, #375181 90%) !important;
+  background-image: -webkit-linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  background-image: -moz-linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  background-image: -o-linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  background-image: linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  */
+}
+
+
+.menuColor button.hamburger {    
+    color: #fff !important;
+}
+
+/*
+nav ul, .nav ul,  nav ul li, .nav ul li, nav ul li a, .nav ul li a, nav ul li a:visited, .nav ul li a:visited {
+  margin: 0px !important; 
+  background: #C5C3E0 !important;
+  border-top: 0px solid #C5C3E0 !important;
+  border-left: 1px solid #C5C3E0 !important;
+  background-image: -webkit-gradient(#C5C3E0 0%, #375181 90%) !important;
+  background-image: -webkit-linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  background-image: -moz-linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  background-image: -o-linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  background-image: linear-gradient(#C5C3E0 0%, #375181 90%) !important;
+  font-weight: 700 !important;
+}
+
+nav ul li.menu > a:after, .nav ul li.menu > a:after {  
+  content: "";
+}
+
+nav ul li a, .nav ul li a, nav ul li a:visited, .nav ul li a:visited,  nav ul ul li a, .nav ul ul li a, nav ul ul li a:visited, .nav ul ul li a:visited{
+  padding: 0.7em 0.7em 0.7em 0.7em !important;
+  color: #ffffff !important;
+} 
+  
+nav ul ul li a, .nav ul ul li a, nav ul ul li a:visited, .nav ul ul li a:visited {
+  border-top: 1px solid  #C5C3E0 !important;
+  background: #375181 !important;
+  font-weight: normal !important;
+}
+nav.menu, .nav.menu {
+    background-color:  #inherit !important;
+
+}
+nav ul li.menu.on > a, .nav ul li.menu.on > a, nav ul li.menu.on > a:visited, .nav ul li.menu.on > a:visited {
+  background: #375181 !important;
+
+}
+
+/*fin navegacion*/
+
+/*Pestañas*/
+
+
+.tabs > ul li a, .tabs > ol li a {
+  background: none;
+  border: none;
+  color: #ffffff !important;
+  text-decoration: none;  
+}
+.tabs > ul li a.active, .tabs > ol li a.active, .tabs > ul li a.active:hover, .tabs > ol li a.active:hover, .tabs > ul li a.active:focus, .tabs > ol li a.active:focus {
+  background: none;
+  border: none;  
+  text-decoration: none;
+}
+.tabs > ul li a:hover, .tabs > ol li a:hover, .tabs > ul li a:focus, .tabs > ol li a:focus {
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+.tabs > ul li a.disabled, .tabs > ol li a.disabled {
+  color: #e7a9d3 !important;
+  background: #e7a9d3 !important;
+  border-color: #e7a9d3 !important;
+  border-bottom-color: #e7a9d3 !important;
+  text-decoration: none;
+}
+
+.tabs > ul li a.disabled:hover, .tabs > ol li a.disabled:hover, .tabs > ul li a.disabled:focus, .tabs > ol li a.disabled:focus, .tabs > ul li a.disabled:visited, .tabs > ol li a.disabled:visited {
+  color: #e7a9d3 !important;
+  background: #e7a9d3 !important;
+  border-color: #e7a9d3 !important;
+  text-decoration: none;
+}
+.tabs > div.active, [role~=tabpanel] .active[role~=tabpanel] {
+  display: block;
+  border: 1px solid #e7a9d3 !important;
+  text-decoration: none;
+}
+
+.tabs > ul li.active {
+    background: #e7a9d3;
+  	border: 1px solid #e7a9d3;
+  	text-decoration: none;
+}
+
+.tabs > ul li, [role~="tab"] {
+    background: none repeat scroll 0% 0% #DDDDDD;
+    text-decoration: none;    
+}
+
+.tabs > ul li:hover, [role~="tab"]:hover, .tabs > ul li:focus, [role~="tab"]:focus, .tabs.accordion > ul li.active {
+    background: none repeat scroll 0% 0% #cf4da5;
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+}
+
+
+
+.tabs > ul li, [role~="tab"] {    
+    color: #fff;    
+}
+
+.tabs > ul li:hover, [role~="tab"]:hover, .tabs > ul li:focus, [role~="tab"]:focus, .tabs.accordion > ul li.active {
+    color: #fff;
+    border-color: #e7a9d3;
+}
+
+.tabs > ul li.active {
+   color: #fff;
+}
+
+
+/*Fin Pestañas*/
+
+
+/*rosa*/
+
+button.rosa,
+input[type=submit].rosa,
+input[type=button].rosa,
+input[type=reset].rosa,
+.button.rosa,
+a.button.rosa,
+rosa,
+ul.button-list li a.rosa,
+ol.button-list li a.rosa,
+[role~=button].rosa {
+  background-color: #E7A9D3;
+  color: white;
+  border-color: #CF4DA5;
+}
+
+
+button.rosa:hover,
+input[type=submit].rosa:hover,
+input[type=button].rosa:hover,
+input[type=reset].rosa:hover,
+.button.rosa:hover,
+a.button.rosa:hover:visited,
+ul.button-list li a.rosa:hover,
+ol.button-list li a.rosa:hover,
+[role~=button].rosa:hover,
+button.rosa:focus,
+input[type=submit].rosa:focus,
+input[type=button].rosa:focus,
+input[type=reset].rosa:focus,
+.button.rosa:focus,
+a.button.rosa:focus:visited,
+ul.button-list li a.rosa:focus,
+ol.button-list li a.rosa:focus,
+[role~=button].rosa:focus {
+  background: #CF4DA5;
+  border-color: #CF4DA5;
+  color: white;
+}
+
+button.disabled.rosa,
+input[type=submit].disabled.rosa,
+input[type=button].disabled.rosa,
+input[type=reset].disabled.rosa,
+.button.disabled.rosa,
+ul.button-list li a.disabled.rosa,
+ol.button-list li a.disabled.rosa,
+[role~=button].disabled.rosa {  
+  background: #E7A9D3;
+  border-color: #CF4DA5;
+  cursor: not-allowed;
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+button.disabled.rosa:hover,
+input[type=submit].disabled.rosa:hover,
+input[type=button].disabled.rosa:hover,
+input[type=reset].disabled.rosa:hover,
+.button.disabled.rosa:hover,
+ul.button-list li a.disabled.rosa:hover,
+ol.button-list li a.disabled.rosa:hover,
+[role~=button].disabled.rosa:hover,
+button.disabled.rosa:focus,
+input[type=submit].disabled.rosa:focus,
+input[type=button].disabled.rosa:focus,
+input[type=reset].disabled.rosa:focus,
+.button.disabled.rosa:focus,
+ul.button-list li a.disabled.rosa:focus,
+ol.button-list li a.disabled.rosa:focus,
+[role~=button].disabled.rosa:focus,
+button.disabled.rosa:visited,
+input[type=submit].disabled.rosa:visited,
+input[type=button].disabled.rosa:visited,
+input[type=reset].disabled.rosa:visited,
+.button.disabled.rosa:visited,
+ul.button-list li a.disabled.rosa:visited,
+ol.button-list li a.disabled.rosa:visited,
+[role~=button].disabled.rosa:visited {  
+  background: #E7A9D3;
+  border-color: #CF4DA5;
+  cursor: not-allowed;
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+
+
+
+
+/*fin rosa*/
+
+
+/*gris*/
+
+button.gris,
+input[type=submit].gris,
+input[type=button].gris,
+input[type=reset].gris,
+.button.gris,
+a.button.gris,
+gris,
+ul.button-list li a.gris,
+ol.button-list li a.gris,
+[role~=button].gris {
+  background: #EEEEEE;
+  border-color: #DDDDDD;  
+  color: black;
+}
+
+
+button.gris:hover,
+input[type=submit].gris:hover,
+input[type=button].gris:hover,
+input[type=reset].gris:hover,
+.button.gris:hover,
+a.button.gris:hover:visited,
+ul.button-list li a.gris:hover,
+ol.button-list li a.gris:hover,
+[role~=button].gris:hover,
+button.gris:focus,
+input[type=submit].gris:focus,
+input[type=button].gris:focus,
+input[type=reset].gris:focus,
+.button.gris:focus,
+a.button.gris:focus:visited,
+ul.button-list li a.gris:focus,
+ol.button-list li a.gris:focus,
+[role~=button].gris:focus {
+  background: #EEEEEE;
+  border-color: #DDDDDD;
+  color: black;
+}
+
+button.disabled.gris,
+input[type=submit].disabled.gris,
+input[type=button].disabled.gris,
+input[type=reset].disabled.gris,
+.button.disabled.gris,
+ul.button-list li a.disabled.gris,
+ol.button-list li a.disabled.gris,
+[role~=button].disabled.gris {  
+  background: #EEEEEE;
+  border-color: #DDDDDD;
+  cursor: not-allowed;
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+
+button.disabled.gris:hover,
+input[type=submit].disabled.gris:hover,
+input[type=button].disabled.gris:hover,
+input[type=reset].disabled.gris:hover,
+.button.disabled.gris:hover,
+ul.button-list li a.disabled.gris:hover,
+ol.button-list li a.disabled.gris:hover,
+[role~=button].disabled.gris:hover,
+button.disabled.gris:focus,
+input[type=submit].disabled.gris:focus,
+input[type=button].disabled.gris:focus,
+input[type=reset].disabled.gris:focus,
+.button.disabled.gris:focus,
+ul.button-list li a.disabled.gris:focus,
+ol.button-list li a.disabled.gris:focus,
+[role~=button].disabled.gris:focus,
+button.disabled.gris:visited,
+input[type=submit].disabled.gris:visited,
+input[type=button].disabled.gris:visited,
+input[type=reset].disabled.gris:visited,
+.button.disabled.gris:visited,
+ul.button-list li a.disabled.gris:visited,
+ol.button-list li a.disabled.gris:visited,
+[role~=button].disabled.gris:visited {  
+  background: #EEEEEE;
+  border-color: #DDDDDD;
+  cursor: not-allowed;
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+
+/* fin gris */
+
+/*grisAzulado*/
+
+button.grisAzulado,
+input[type=submit].grisAzulado,
+input[type=button].grisAzulado,
+input[type=reset].grisAzulado,
+.button.grisAzulado,
+a.button.grisAzulado,
+grisAzulado,
+ul.button-list li a.grisAzulado,
+ol.button-list li a.grisAzulado,
+[role~=button].grisAzulado {
+  background: #8690B6;
+  border-color: #375181;
+  color: white;
+}
+
+
+button.grisAzulado:hover,
+input[type=submit].grisAzulado:hover,
+input[type=button].grisAzulado:hover,
+input[type=reset].grisAzulado:hover,
+.button.grisAzulado:hover,
+a.button.grisAzulado:hover:visited,
+ul.button-list li a.grisAzulado:hover,
+ol.button-list li a.grisAzulado:hover,
+[role~=button].grisAzulado:hover,
+button.grisAzulado:focus,
+input[type=submit].grisAzulado:focus,
+input[type=button].grisAzulado:focus,
+input[type=reset].grisAzulado:focus,
+.button.grisAzulado:focus,
+a.button.grisAzulado:focus:visited,
+ul.button-list li a.grisAzulado:focus,
+ol.button-list li a.grisAzulado:focus,
+[role~=button].grisAzulado:focus {
+  background: #8690B6;
+  border-color: #375181;
+  color: white;
+}
+
+button.disabled.grisAzulado,
+input[type=submit].disabled.grisAzulado,
+input[type=button].disabled.grisAzulado,
+input[type=reset].disabled.grisAzulado,
+.button.disabled.grisAzulado,
+ul.button-list li a.disabled.grisAzulado,
+ol.button-list li a.disabled.grisAzulado,
+[role~=button].disabled.grisAzulado {  
+  background: #8690B6;
+  border-color: #375181;
+  color: white;
+  cursor: not-allowed;
+  text-decoration: none;
+  outline: none;  
+}
+
+button.disabled.grisAzulado:hover,
+input[type=submit].disabled.grisAzulado:hover,
+input[type=button].disabled.grisAzulado:hover,
+input[type=reset].disabled.grisAzulado:hover,
+.button.disabled.grisAzulado:hover,
+ul.button-list li a.disabled.grisAzulado:hover,
+ol.button-list li a.disabled.grisAzulado:hover,
+[role~=button].disabled.grisAzulado:hover,
+button.disabled.grisAzulado:focus,
+input[type=submit].disabled.grisAzulado:focus,
+input[type=button].disabled.grisAzulado:focus,
+input[type=reset].disabled.grisAzulado:focus,
+.button.disabled.grisAzulado:focus,
+ul.button-list li a.disabled.grisAzulado:focus,
+ol.button-list li a.disabled.grisAzulado:focus,
+[role~=button].disabled.grisAzulado:focus,
+button.disabled.grisAzulado:visited,
+input[type=submit].disabled.grisAzulado:visited,
+input[type=button].disabled.grisAzulado:visited,
+input[type=reset].disabled.grisAzulado:visited,
+.button.disabled.grisAzulado:visited,
+ul.button-list li a.disabled.grisAzulado:visited,
+ol.button-list li a.disabled.grisAzulado:visited,
+[role~=button].disabled.grisAzulado:visited {  
+  background: #8690B6;
+  border-color: #375181;
+  color: white;
+  cursor: not-allowed;
+  text-decoration: none;
+  outline: none; 
+}
+
+/* fin grisAzulado */
+
+
+
+
+/** FIX for Bootstrap and Google Maps Info window styes problem **/
+img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
+max-width: none;
+}
+
+/* Actualización CSS */
+
+ul.button-group li a.disabled,ol.button-group li a.disabled,ul.button-group li a[disabled=disabled],ol.button-group li a[disabled=disabled],ul.button-group li button.disabled,ol.button-group li button.disabled,ul.button-group li button[disabled=disabled],ol.button-group li button[disabled=disabled]{
+color:#5A5A5A;
+background: #DDDDDD;
+}
+
+button.disabled,input.disabled[type=submit],input.disabled[type=button],input.disabled[type=reset],.disabled.button,a.disabled.button,a.disabled.button:visited,ul.button-group li a.disabled,ul.button-group li button.disabled,ol.button-group li a.disabled,ol.button-group li button.disabled,.disabled[role~=button],button[disabled=disabled].disabled,input[disabled=disabled][type=submit].disabled,input[disabled=disabled][type=button].disabled,input[disabled=disabled][type=reset].disabled,[disabled=disabled].button.disabled,a[disabled=disabled].button.disabled:visited,ul.button-group li a[disabled=disabled].disabled,ul.button-group li button[disabled=disabled].disabled,ol.button-group li a[disabled=disabled].disabled,ol.button-group li button[disabled=disabled].disabled,[disabled=disabled][role~=button][aria-disabled],[disabled=disabled][role~=button].disabled,.disabled[role~=button][aria-readonly],[disabled=disabled][role~=button][aria-readonly]{
+color:#5A5A5A;
+background: #DDDDDD;
+}
+
+ul.button-group li a, ol.button-group li a, ul.button-group li button, ol.button-group li button {
+	background: #DDDDDD;
+}
+
+
+.ui-widget-header {    
+    background-color: #005696;    
+    color:#fff;    
+}
